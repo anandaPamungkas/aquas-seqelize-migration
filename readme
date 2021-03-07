@@ -1,0 +1,22 @@
+//install sequelize
+npm install sequelize --save
+npm install mysql2 --save
+npm install sequelize-cli -g
+
+//initialize the sequelize
+sequelize init
+
+change the config file
+
+//make migration
+sequelize migration:create --name create_administrator_table
+
+//do the migration
+sequelize db:migrate
+
+//make seeder file
+npx sequelize seed:generate --name seeder-name
+
+//do the seeding
+npx sequelize db:seed:all
+
