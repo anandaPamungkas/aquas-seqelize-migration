@@ -22,3 +22,5 @@ Database migration using Sequelize based on NodeJs
 * do the migration using this command "sequelize db:migrate"
 
 * add data into the database table using this command "npx sequelize db:seed:all"
+
+* add new administrator manually to administrator table, for the password column at administrator table encrypt it with bcrypt"
